@@ -2,5 +2,11 @@
     "compilerOptions": {
         "baseUrl": "src"
     },
-    "include": ["src"]
+    "include": [
+        "src"
+    ]
 }
+// // a) Fomentar a inclusão digital dos cidadãos paulistanos, de forma a possibilitar o real exercício da cidadania;
+// b) Ofertar o acesso gratuito à internet, em atenção às áreas mais necessitadas na cidade de São Paulo;
+// c) Propiciar à população da cidade de São Paulo, conhecimento e acesso à tecnologia de informação;
+// d) Apoio ao desenvolvimento e manutenção do espaço de inclusão digital, de forma a manter o atendimento e o ambiente sempre em condições de bem satisfazer os objetivos do Programa de Inclusão Digital;
