@@ -1,0 +1,19 @@
+.rodape {
+    background-color: var(--azul-escuro);
+    color: var(--branco);
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: .5rem;
+}
+
+.rodape p a {
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.rodape p a:hover {
+    font-size: 1.2rem;
+    box-shadow: inset 0 0 100px 100px rgba(12, 41, 172, 0.849);
+}
