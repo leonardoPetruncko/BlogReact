@@ -1,5 +1,6 @@
 import { useParams } from "react-router-dom"
 import posts from "json/posts.json"
+import PostModelo from "componentes/PostModelo"
 
 export default function Post() {
 
@@ -12,6 +13,11 @@ export default function Post() {
     console.log(post);
 
     return (
-        <h1>dale {parametros.id}</h1>
+        <PostModelo
+        fotoCapa={`/assets/posts/${post.id}/capa.png`}
+        titulo={post.titulo}
+        >
+            Texto...
+        </PostModelo>
     )
 }
