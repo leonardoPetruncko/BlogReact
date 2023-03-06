@@ -1,10 +1,15 @@
 import { useParams } from "react-router-dom"
+import posts from "json/posts.json"
 
 export default function Post() {
 
     const parametros = useParams()
 
-    console.log(parametros);
+    const post = posts.find((post) => {
+        return post.id === Number(parametros.id)
+    })
+
+    console.log(post);
 
     return (
         <h1>dale {parametros.id}</h1>
