@@ -14,6 +14,6 @@
 }
 
 .rodape p a:hover {
-    font-size: 1.2rem;
-    box-shadow: inset 0 0 100px 100px rgba(12, 41, 172, 0.849);
+    font-size: 1.1rem;
+    color: rgba(29, 157, 97, 0.849);
 }
