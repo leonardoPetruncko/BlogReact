@@ -5,8 +5,6 @@ import { Outlet } from "react-router-dom";
     return (
         <main>
             <Banner />
-
-
             <Outlet />
         </main>
     )

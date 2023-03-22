@@ -1,10 +1,24 @@
+.navegacao {
+    height: 6rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 0;
+}
+
 .link {
-    font-size: 30px;
+    font-size: 1.25rem;
     line-height: 1.5rem;
-    color: var(--cor-fonte-principal);
+    color: var(--greyDark);
+    text-decoration: none;
 }
 
 .linkDestacado {
     text-decoration: underline;
-    font-size: 1.3rem;
+}
+
+@media (max-width: 744px) {
+    .navegacao {
+        height: 42px;
+    }
 }

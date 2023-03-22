@@ -6,7 +6,7 @@
     padding-bottom: 1.5rem;
     transition: transform .5s;
     background-color: #fff;
-    margin: 5rem 0px 10px 10px;
+    margin: 6rem 0px 10px 10px;
 }
 
 .post:hover {
@@ -18,7 +18,8 @@
 }
 
 .titulo {
-    font-family: var(--fonte-secundaria);
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
     font-size: 1.25rem;
     color: var(--azul-escuro);
     line-height: 1.50rem;
@@ -35,7 +36,9 @@
     color: var(--branco);
     border: 3px solid var(--azul-medio);
     cursor: pointer;
-    transition: 0.2s
+    transition: 0.2s;
+    font-family: "Poppins", sans-serif;
+    
 }
 
 .botaoLer:hover {
