@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&family=Poppins:wght@200;300&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(#F5F0E8, #F9F4EF);
+
 }
 
 :root {
@@ -10,7 +17,7 @@
   --cor-fonte-principal: #041833;
   --cor-fonte-post: #444444;
   --branco: #FFF;
-  --fonte-principal: 'Raleway', sans-serif;
+  --fonte-principal: 'Herr Von Muellerhoff', cursive;
   --fonte-secundaria: 'Playfair Display', sans-serif;
 
   font-family: var(--fonte-principal);
@@ -22,6 +29,7 @@
   grid-template-columns: minmax(0, 1fr);
   min-height: 100vh;
 }
+
 
 a, button, input, textarea {
   font: inherit;

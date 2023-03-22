@@ -1,16 +1,18 @@
 .banner {
-    padding: 3rem 7.5rem 6.25rem;
-    background-color: var(--azul-escuro);
+    padding: 10rem  4rem;
+    background-color: #DEDAD0;
     color: var(--branco);
-    display: grid;
     grid-template-columns: 1fr 1fr;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
  
 .titulo {
-    font-family: var(--fonte-secundaria);
-    font-size: 4rem;
-    margin-top: 4.875rem;
-    margin-bottom: 2rem;
+    font-weight: 300;
+    font-size: 7rem;
+    color: #513D27;
 }
  
 .paragrafo {
