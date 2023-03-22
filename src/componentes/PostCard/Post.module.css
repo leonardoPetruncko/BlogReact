@@ -1,11 +1,12 @@
 .post {
     text-align: center;
-    width: 282px;
+    width: 22rem;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
-    border-radius: 0px 0px 10px 10px;
+    border-radius: 30px;
     padding-bottom: 1.5rem;
-    transition: transform .2s;
+    transition: transform .5s;
     background-color: #fff;
+    margin: 5rem 0px 10px 10px;
 }
 
 .post:hover {
@@ -20,8 +21,8 @@
     font-family: var(--fonte-secundaria);
     font-size: 1.25rem;
     color: var(--azul-escuro);
-    line-height: 1.75rem;
-    margin: 1.5rem 0 1.75rem;
+    line-height: 1.50rem;
+    margin: 1.2rem 0 1.75rem;
 }
 
 .botaoLer {
