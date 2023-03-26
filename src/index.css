@@ -17,7 +17,7 @@ body {
   --cor-fonte-principal: #041833;
   --cor-fonte-post: #444444;
   --branco: #FFF;
-  --fonte-principal: 'Herr Von Muellerhoff', cursive;
+  --fonte-principal: 'Herr Von Muellerhoff', 'cursive';
   --fonte-secundaria: 'Playfair Display', sans-serif;
 }
 
