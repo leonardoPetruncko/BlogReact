@@ -8,15 +8,14 @@
     color: #513D27;
     font-weight: 900;
     text-decoration: none;
+    font-size: 1.1rem;
+
 }
 
-.link {
-    font-size: 1.15rem;
-    line-height: 1.5rem;
-}
+
 
 @media (max-width: 744px) {
     .navegacao {
-        height: 4rem;
+        height: 5rem;
     }
 }
