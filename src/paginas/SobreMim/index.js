@@ -7,7 +7,6 @@ import fotoSobreMim from "assets/sobre_mim_foto.png"
 export default function SobreMim() {
   return (
     <PostModelo
-      fotoCapa={fotoCapa}
       titulo="Sobre mim"
     >
       <h3 className={styles.subtitulo}>

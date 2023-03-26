@@ -16,7 +16,6 @@ export default function Post() {
 
     return (
         <PostModelo
-            fotoCapa={`/assets/posts/${post.id}/capa.png`}
             titulo={post.titulo}
         >
             <div className="post-markdown-container">

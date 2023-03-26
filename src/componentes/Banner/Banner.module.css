@@ -1,6 +1,6 @@
 .banner {
     padding: 10rem  4rem;
-    background-color: #DEDAD0;
+    background-color: #e4caaf;
     color: var(--branco);
     grid-template-columns: 1fr 1fr;
 
@@ -13,6 +13,7 @@
     font-weight: 300;
     font-size: 7rem;
     color: #513D27;
+    font-family: 'Dancing Script', cursive;
 }
  
 .paragrafo {
