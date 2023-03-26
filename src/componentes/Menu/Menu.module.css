@@ -1,9 +1,9 @@
 .navegacao {
-    height: 6rem;
+    height: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    column-gap: 3rem;
+    column-gap: 5rem;
     font-family: "Poppins", sans-serif;
 }
 
@@ -20,6 +20,6 @@
 
 @media (max-width: 744px) {
     .navegacao {
-        height: 22px;
+        height: 4rem;
     }
 }
