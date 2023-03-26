@@ -2,6 +2,7 @@ import styles from './NaoEncontrada.module.css'
 
 export default function NaoEncontrada() {
     return (
+        <>
         <div className={styles.conteudoContainer}>
             <span className={styles.texto404}>404</span>
 
@@ -14,8 +15,9 @@ export default function NaoEncontrada() {
             </p>
 
             <p className={styles.paragrafo}>
-                Aguarde uns  instantes e recarregue a página, ou volte para a página inicial.
+                Recarregue a página, ou volte para a página inicial.
             </p>
         </div>
+        </>
     )
 };

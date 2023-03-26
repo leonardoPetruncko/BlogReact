@@ -5,7 +5,7 @@ export default function Rodape() {
     return (
         <footer className={styles.rodape}>
             {/* <MarcaRegistrada /> */}
-            <p> Desenvolvido por <a href='https://www.instagram.com/idevsolution/'>Leonardo Petruncko</a> </p>
+            <p> Desenvolvido por <a href='https://www.instagram.com/leonardopetruncko/'>Leonardo Petruncko</a> </p>
         </footer>
     )
 }
