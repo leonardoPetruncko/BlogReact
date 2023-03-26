@@ -5,17 +5,14 @@
     align-items: center;
     column-gap: 5rem;
     font-family: "Poppins", sans-serif;
+    color: #513D27;
+    font-weight: 900;
+    text-decoration: none;
 }
 
 .link {
     font-size: 1.15rem;
     line-height: 1.5rem;
-    color: var(--cor-fonte-principal);
-    
-}
-
-.linkDestacado {
-    text-decoration: underline;
 }
 
 @media (max-width: 744px) {
