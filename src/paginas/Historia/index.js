@@ -3,10 +3,7 @@ import styles from './SobreMim.module.css'
 import PostModelo from "componentes/PostModelo";
 import fotoSobreMim from "assets/sobre_mim_foto.png"
 
-export default function SobreMim() {
-  
-  
-  
+export default function Historia() {
   return (
     <PostModelo>
       <h1 className={styles.titulo}>
