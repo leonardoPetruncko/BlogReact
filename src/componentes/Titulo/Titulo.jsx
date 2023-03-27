@@ -6,7 +6,7 @@ export default function Titulo() {
     useEffect(() => {
       const intervalId = setInterval(() => {
         setVisible((prevVisible) => !prevVisible);
-      }, 2000); // intervalo de 1 segundo
+      }, 1500); // intervalo de 1 segundo
   
       return () => {
         clearInterval(intervalId);
