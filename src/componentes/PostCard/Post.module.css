@@ -20,9 +20,9 @@
 
 .titulo {
     font-family: "Poppins", sans-serif;
-    font-weight: 300;
+    font-weight: 900;
     font-size: 1.25rem;
-    color: var(--azul-escuro);
+    color: #513D27;
     line-height: 1.50rem;
     margin: 1.2rem 0 1.75rem;
 }
@@ -33,17 +33,19 @@
     padding: 0.75rem 1.5rem;
     font-size: 1.125rem;
     line-height: 1.125rem;
-    background-color: var(--azul-medio);
-    color: var(--branco);
-    border: 3px solid var(--azul-medio);
+    background-color: #cbaf90;
+    color: #fff;
+    border: 3px solid #cbaf90;
     cursor: pointer;
-    transition: 0.2s;
+    transition: 0.3s;
     font-family: "Poppins", sans-serif;
+    font-weight: 600;
     
 }
 
 .botaoLer:hover {
-    border: 3px solid var(--azul-escuro);
+    border: 3px solid #8b7862;
+    background-color: #8b7862;
 }
 
 @media (max-width: 1100px) {
