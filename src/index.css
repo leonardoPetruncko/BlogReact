@@ -28,7 +28,10 @@ body {
   min-height: 100vh;
 }
 
-a, button, input, textarea {
+a,
+button,
+input,
+textarea {
   font: inherit;
   color: inherit;
 }
@@ -45,7 +48,24 @@ li {
   list-style: none;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-weight: 700;
   line-height: 5rem;
 }
+
+body::-webkit-scrollbar {
+  width: 10px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #FFF;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #925527;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid #FFF;  /* creates padding around scroll thumb */
+}
+
