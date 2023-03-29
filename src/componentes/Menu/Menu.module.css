@@ -8,11 +8,8 @@
     color: #513D27;
     font-weight: 900;
     text-decoration: none;
-    font-size: 1.1rem;
-
+    font-size: 1.2rem;
 }
-
-
 
 @media (max-width: 744px) {
     .navegacao {
