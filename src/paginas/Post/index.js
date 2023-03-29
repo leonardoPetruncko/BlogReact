@@ -2,7 +2,7 @@ import { Route, Routes, useParams } from "react-router-dom"
 import posts from "json/posts.json"
 import PostModelo from "componentes/PostModelo"
 import { ReactMarkdown } from "react-markdown/lib/react-markdown"
-import './Post.css';
+import './post.css';
 import NaoEncontrada from "paginas/NaoEncontrada";
 import PaginaPadrao from "componentes/PaginaPadrao";
 
